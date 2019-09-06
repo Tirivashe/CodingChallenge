@@ -1,0 +1,12 @@
+{
+  "name": "lifewaycodingchallenge",
+  "version": "1.0.0",
+  "description": "LifeWay Coding Challenge",
+  "main": "server.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
