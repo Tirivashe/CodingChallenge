@@ -27,11 +27,11 @@ app.post('/api', (req,res) => {
 
     //extracting a list of ids inside each object in the storage array
     const idArray = info.map(obj => {
-        return obj.id
+        return obj.id.toString()
     })
 
     //checking if the id of the new request object already exists in the id list. If not, the new request gets through and a new object is added
-    idArray.includes(newObject.id) ? null : info.push(newObject)
+    idArray.includes(newObject.id.toString()) ? null : info.push(newObject)
     res.send(newObject)
 })
 
