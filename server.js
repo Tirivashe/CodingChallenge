@@ -11,7 +11,9 @@ const info = []
 app.get('/api', (req, res) => {
     let count = 0
     for(var i = 0; i < info.length; i++){
-        count += info[i].message.split(' ').length
+        count += info[i].message.split(' ').length //takes the message attribute from each object and splits it using space as a delimiter... 
+                                                    //This gives back an array of only words and taking the length of that array gives us...
+                                                    //the amount of words in that message and that number is added to "count" to get the total number of words
     }
     res.send({ "count" : count })
 })
