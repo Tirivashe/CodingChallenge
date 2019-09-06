@@ -3,7 +3,7 @@
 ## Prerequisites
 
 The tools that were used to run and test this project are as follows: 
-* Node (npm)
+* Node (npm, express.js)
 * Git
 * Postman
 * JavaScript IDE or code editor of choice.
