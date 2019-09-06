@@ -16,5 +16,6 @@ The tools that were used to run and test this project are as follows:
 ### Testing
 1. Open 'Postman' to start manipulating the endpoints. The single endpoint in use will be 'localhost:<PORT_NUMBER>/api'
 2. On 'Postman', enter the above-mentioned endpoint and set the request to a GET request (left of where the URL is entered)
-3. Select 'Send' (right of where the URL is entered) and scroll all the way down to see the result in JSON. Count should start at 0
-4. To add a JSON message, switch from 'GET' to 'POST' and enter the JSON data. Successful operation results in the same data being displayed at the bottom
+3. Under the address bar, switch to the 'Body' tab and change the furthest right option underneath to JSON(application/json) 
+4. Select 'Send' (right of where the URL is entered) and scroll all the way down to see the result in JSON. Count should start at 0
+5. To add a JSON message, switch from 'GET' to 'POST' and enter the JSON data. Successful operation results in the same data being displayed at the bottom
