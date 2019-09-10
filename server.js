@@ -31,7 +31,7 @@ app.post('/api', (req,res) => {
     })
 
     //checking if the id of the new request object already exists in the id list. If not, the new request gets through and a new object is added
-    idArray.includes(newObject.id) ? null : info.push(newObject)
+    idArray.includes(String(newObject.id)) ? null : info.push(newObject)
     res.send(newObject)
 })
 
